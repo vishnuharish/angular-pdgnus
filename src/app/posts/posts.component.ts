@@ -20,4 +20,7 @@ export class PostsComponent implements OnInit {
         console.log(err);
       })
   }
+  add(){
+    console.log("navigate to add page");
+  }
 }
